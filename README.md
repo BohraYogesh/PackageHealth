@@ -19,11 +19,21 @@
 
 ## Screenshots
 
-Screenshots will be added after the first community release.
+### Dashboard
+![PackageHealth Dashboard](docs/screenshots/dashboard.png)
+
+### Analyzer
+![PackageHealth Analyzer](docs/screenshots/analyzer.png)
+
+### Reports
+![PackageHealth Reports](docs/screenshots/reports.png)
+
+### Settings
+![PackageHealth Settings](docs/screenshots/settings.png)
 
 ## Stack
 
-- Frontend: React 18, Vite 5, JavaScript/JSX, Tailwind CSS, React Router, Lucide React, Chart.js.
+- Frontend: React 18, Vite 8, JavaScript/JSX, Tailwind CSS, React Router, Lucide React, Chart.js.
 - API: Node.js, Express 4, Zod, Axios, semver.
 - Data: [npm Registry](https://registry.npmjs.org) and [OSV](https://osv.dev).
 - Quality: ESLint, Prettier, Vitest, GitHub Actions.
