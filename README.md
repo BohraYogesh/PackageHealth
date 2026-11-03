@@ -37,7 +37,7 @@ Screenshots will be added after the first community release.
 ## Quick start (Windows / VS Code)
 
 ```powershell
-git clone https://github.com/YOUR_ORG/packagehealth.git
+git clone https://github.com/BohraYogesh/PackageHealth.git
 cd packagehealth
 npm install
 Copy-Item .env.example .env
