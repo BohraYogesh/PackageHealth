@@ -2,6 +2,12 @@
 
 **Dependency intelligence for JavaScript projects.** PackageHealth analyzes an npm `package.json` against the public npm Registry and OSV vulnerability database, then turns the results into a searchable, exportable report.
 
+## Live Application
+
+- **Live Demo:** https://packagehealth.vercel.app/
+- **Backend API:** https://packagehealth.onrender.com
+- **Health Check:** https://packagehealth.onrender.com/api/health
+
 > **Important accuracy note:** a `package.json` contains declared version ranges, not necessarily the versions actually installed. PackageHealth labels these as *declared* versions. OSV lookups are performed only when a dependency value is an exact semantic version (for example `4.17.21`). Ranges such as `^4.17.0` are marked **unknown** for vulnerability status, never safe. Lockfile-based resolution is on the roadmap.
 
 ## Features
