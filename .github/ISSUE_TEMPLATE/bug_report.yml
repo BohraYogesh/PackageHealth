@@ -1,0 +1,31 @@
+name: Bug report
+description: Report a reproducible problem in PackageHealth
+title: "[Bug]: "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: Please do not include private package names, credentials or customer manifests.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: A clear description of the problem.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: PackageHealth version
+      placeholder: 1.0.0
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: OS, Node.js version, browser and relevant logs (redact sensitive data).
