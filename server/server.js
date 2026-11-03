@@ -36,7 +36,7 @@ app.use((_req, res) =>
   res.status(404).json({ error: { code: 'NOT_FOUND', message: 'Endpoint not found.' } }),
 );
 app.use(errorHandler);
-app.listen(env.port, () =>
+app.listen(env.port, '0.0.0.0', () =>
   console.log(`PackageHealth API listening on http://localhost:${env.port}`),
 );
 export default app;
